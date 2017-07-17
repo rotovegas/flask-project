@@ -20,10 +20,6 @@ def python():
         return render_template('python.html')
 
 
-
-
-
-
 @app.route('/')
 def index():
 	return render_template("index.html")
@@ -38,5 +34,4 @@ def foo(name):
 @app.route('/whereami')
 def whereami():
 	return "Koforidua"
-
 
