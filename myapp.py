@@ -14,6 +14,17 @@ def linux():
         return render_template('linux.html')
 
 
+@app.route('/python')
+def python():
+        return render_template('python.html')
+        
+@app.route('/linux')
+def linux():
+        return render_template('linux.html')
+
+
+
+
 
 
 @app.route('/')

@@ -1,1 +1,46 @@
+body {
+background-color: blue;
 
+}
+
+
+#container {
+background-color:grey;
+
+}
+
+
+
+#header {
+background-color: black;
+display: flex;
+color: red;
+height: 60px;
+width: auto;
+margin: auto;
+padding: auto;
+
+}
+#header nav {
+color: red;
+margin-right: 10px;
+margin: auto;
+
+}
+#header h4 {
+float: right;
+display: inline;
+margin-right: 5px;
+
+
+}
+#content {
+background-color: brown;
+padding-top: 10px;
+margin: auto;
+height: 180px;
+}
+#footer {
+clear: both;
+
+}
