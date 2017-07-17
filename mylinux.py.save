@@ -9,7 +9,7 @@ app= Flask (__name__)
 
 
 
-@app.route('/linux.html')
+@app.route('/git remote add origin https://github.com/rotovegas/Introduction-to-Linux.git')
 def linux():
 	return render_templates('linux.html')
 

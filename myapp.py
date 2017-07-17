@@ -9,6 +9,12 @@ app = Flask(__name__)
 def send_js(path):
     return send_from_directory('img', path)
 
+@app.route('/linux')
+def linux():
+        return render_template('linux.html')
+
+
+
 
 @app.route('/')
 def index():
