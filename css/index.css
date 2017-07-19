@@ -1,0 +1,52 @@
+body {
+background-color: 666666;
+
+}
+#container{
+background-color:999999;
+}
+
+
+#content {}
+
+#header{
+background-color: 003366;
+color: 333300;
+padding: auto;
+margin: auto;
+text-align: center;
+font-family: nevis-webfont;
+font-size: 112.5%;
+font-weight: normal;
+height: 30px;
+}
+#nav {
+	background-color: black;
+	padding-top: none;
+	padding: auto;
+	margin: auto;
+	height: auto;
+	width: auto;
+    border-top: 1px solid red;
+    border-bottom:1px solid red;
+    text-align: center;
+}
+#link {
+	margin: auto;
+	padding: 20px;
+    padding-top: none;
+    padding: auto;
+    font-family: nevis-webfont;
+    font-size: 112.5%;
+    font-weight: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    display: inline;
+    text-decoration: none;
+    text-align: center;
+    height: auto;
+    width: auto;
+}
+
+
+#footer{}
